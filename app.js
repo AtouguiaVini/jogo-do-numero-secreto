@@ -39,10 +39,10 @@ function verificarChute() {
             document.getElementById('reiniciar').removeAttribute('disabled');
         } else {
             if (chute > numeroSecreto){
-                exibirTextoNaTela('h1','Erroooooooou!');
+                exibirTextoNaTela('h1','Você Errou!');
                 exibirTextoNaTela('p','O número secreto é menor!');
             } else {
-                    exibirTextoNaTela('h1','Erroooooooou!');
+                    exibirTextoNaTela('h1','Você Errou!');
                     exibirTextoNaTela('p','O número secreto é maior!');
             }
             tentativas++;
