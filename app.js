@@ -23,7 +23,7 @@ function exibirTextoNaTela(tag, texto){
 }
 
 function exibirMensagemInicial(){
-    exibirTextoNaTela('h1','Jogo de Advinhação');
+    exibirTextoNaTela('h1','Jogo de Adivinhação');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
 }
